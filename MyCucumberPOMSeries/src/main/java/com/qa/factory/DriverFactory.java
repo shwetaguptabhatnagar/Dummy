@@ -29,7 +29,7 @@ public class DriverFactory {
 			
 			cap.setCapability("browserName","chrome");
 			try {
-				tlDriver.set(new RemoteWebDriver(new URL("http://13.127.2.37:4444/wd/hub"),cap));
+				tlDriver.set(new RemoteWebDriver(new URL("http://15.206.92.185:4444/wd/hub"),cap));
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -43,7 +43,7 @@ public class DriverFactory {
 			
 			cap.setCapability("browserName","firefox");
 			try {
-				tlDriver.set(new RemoteWebDriver(new URL("http://13.127.2.37:4444/wd/hub"),cap));
+				tlDriver.set(new RemoteWebDriver(new URL("http://15.206.92.185:4444/wd/hub"),cap));
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
